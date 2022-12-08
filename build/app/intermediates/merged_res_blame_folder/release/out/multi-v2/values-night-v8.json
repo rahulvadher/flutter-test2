@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rahul/Projects/Flutter/lux-global_git/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "3,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,961",
+                        "endLines": "9,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "619,1125"
+                    },
+                    "to": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,507",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "502,671"
+                    }
+                }
+            ]
+        }
+    ]
+}

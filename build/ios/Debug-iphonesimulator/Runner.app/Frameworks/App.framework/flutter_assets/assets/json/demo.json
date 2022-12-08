@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Activity1",
+      "image": "https://swiftoro.in/luxglobalmarket/uploads/dailytask/dailytask1/2/7512water-image.jpg",
+      "start_time": "10:00:00",
+      "end_time": "12:00:00",
+      "status": "1",
+      "datecreated": "2022-11-29 12:32:26",
+      "dateupdated": "2022-11-29 12:36:32",
+      "image_min": "https://swiftoro.in/luxglobalmarket/uploads/dailytask/dailytask1/2/7512water-image_min.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Activity2",
+      "image": "https://swiftoro.in/luxglobalmarket/uploads/dailytask/dailytask1/2/7512water-image.jpg",
+      "start_time": "10:00:00",
+      "end_time": "12:00:00",
+      "status": "1",
+      "datecreated": "2022-11-29 12:32:26",
+      "dateupdated": "2022-11-29 12:36:32",
+      "image_min": "https://swiftoro.in/luxglobalmarket/uploads/dailytask/dailytask1/2/7512water-image_min.jpg"
+    }
+  ]
+}

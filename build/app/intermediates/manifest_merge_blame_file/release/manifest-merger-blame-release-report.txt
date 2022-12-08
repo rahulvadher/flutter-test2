@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lux.global.lux_global"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:3:5-80
+11-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:3:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:4:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/rahul/.gradle/caches/transforms-3/6ec2c823b2ddfa9d4aff16fd99b56b89/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+14-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/rahul/.gradle/caches/transforms-3/6ec2c823b2ddfa9d4aff16fd99b56b89/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:22-76
+15
+16    <application
+17        android:name="android.app.Application"
+17-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:8:9-42
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.8.0] /Users/rahul/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+19        android:icon="@drawable/logo"
+19-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:9:9-38
+20        android:label="Lux Global" >
+20-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:7:9-35
+21        <activity
+21-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:10:9-34:20
+22            android:name="com.lux.global.lux_global.MainActivity"
+22-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:11:13-41
+23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:15:13-163
+24            android:exported="true"
+24-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:12:13-36
+25            android:hardwareAccelerated="true"
+25-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:16:13-47
+26            android:launchMode="singleTop"
+26-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:13:13-43
+27            android:theme="@style/LaunchTheme"
+27-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:14:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:17:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:22:13-25:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:23:15-70
+38                android:resource="@style/NormalTheme" />
+38-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:24:15-52
+39            <meta-data
+39-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:26:13-29:19
+40                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+40-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:27:17-81
+41                android:resource="@drawable/launch_background" />
+41-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:28:17-63
+42
+43            <intent-filter>
+43-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:30:13-33:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:31:17-68
+44-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:31:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:32:17-76
+46-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:32:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:37:9-39:33
+54            android:name="flutterEmbedding"
+54-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:38:13-44
+55            android:value="2" />
+55-->/Users/rahul/Projects/Flutter/lux-global_git/android/app/src/main/AndroidManifest.xml:39:13-30
+56
+57        <provider
+57-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+58            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+58-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+59            android:authorities="com.lux.global.lux_global.flutter.image_provider"
+59-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+60            android:exported="false"
+60-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+61            android:grantUriPermissions="true" >
+61-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+62            <meta-data
+62-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+64                android:resource="@xml/flutter_image_picker_file_paths" />
+64-->[:image_picker_android] /Users/rahul/Projects/Flutter/lux-global_git/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+65        </provider>
+66
+67        <uses-library
+67-->[androidx.window:window:1.0.0-beta04] /Users/rahul/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+68            android:name="androidx.window.extensions"
+68-->[androidx.window:window:1.0.0-beta04] /Users/rahul/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0-beta04] /Users/rahul/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+70        <uses-library
+70-->[androidx.window:window:1.0.0-beta04] /Users/rahul/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+71            android:name="androidx.window.sidecar"
+71-->[androidx.window:window:1.0.0-beta04] /Users/rahul/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0-beta04] /Users/rahul/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+73    </application>
+74
+75</manifest>

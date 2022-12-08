@@ -1,0 +1,4 @@
+#Thu Dec 08 23:57:16 IST 2022
+base.0=/Users/rahul/Projects/Flutter/lux-global_git/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
